@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 while True:
 
@@ -14,7 +14,7 @@ while True:
     completion = openai.Completion.create(
         engine = engine_model_gpt,
         prompt = prompt,
-        max_tokens = 1024,
+        max_tokens = 4000,
         n = 1,
         stop = None,
         temperature = 0.3
